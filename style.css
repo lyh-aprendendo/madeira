@@ -1,0 +1,80 @@
+
+
+body {
+   background-color: darkseagreen;
+   margin: 0;
+   padding: 0;
+}
+
+header {
+   background-color:deeppink;
+   height: 72px;
+   display: flex;
+   position: sticky;
+   z-index: 9;
+   top: 0;
+}
+
+/* == [ exemplo 01 ] 
+== == == == == == == == == */
+/* view {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+[esquerda] {
+   background-color: darkgreen;
+   flex: 1;
+}
+[center] {
+   background-color: darkturquoise;
+   flex: 2;
+}
+[direita] {
+   flex: 3;
+   background-color: darkviolet;
+} */
+/* == == == == == == == == == */
+
+header > h1{
+   display: flex;
+   text-align: center;
+   width: 100%;
+   justify-content: center;
+   align-items: center;
+   
+}
+
+main {
+   background-color: darkgrey;
+   min-height: 150vh;
+   display: grid;
+   gap: 10px;
+}
+
+section {
+   background-color: rgba(220, 20, 60, 0.514);
+   height: 70vh;
+   width: 100vw;
+   display: flex;
+   background-image: linear-gradient(45deg, blue, red);
+   border-radius: 10px;
+   /* background-image: url(./1738866-linda-agua-azul-em-uma-praia-tropical-foto.jpg);
+   background-attachment: fixed; */
+}
+
+/* .madeira {
+   background-image: url(./ponte-de-madeira-para-a-praia-durante-o-por-do-sol_181624-18247.avif);
+   background-attachment: fixed;
+} */
+
+footer {
+   background-color: black;
+   color: white;
+   min-height: 150px;
+   display: grid;
+   text-align: center;
+   
+   
+}
